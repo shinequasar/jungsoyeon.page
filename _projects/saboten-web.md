@@ -1,7 +1,7 @@
 ---
 title: '[Frontend] 선인장 랜딩페이지'
 description: 선인장 프로젝트 소개 / 안드로이드 앱 다운로드 유도용 랜딩페이지 개발 
-image: '/saboten-web/Group 3912 (1).png'
+image: '/saboten-web/선인장배너.png'
 date: 2023-05-01 ~ 2023-05-02
 ---
 
