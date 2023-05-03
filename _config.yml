@@ -1,0 +1,44 @@
+title: JungSoYeon
+description: >-
+  JUNG SO YEON
+url: "https://shinequasar.github.io/want_portfolio/"
+github: shinequasar
+email: shinequasar@naver.com
+google_analytics: <YOUR UA TOKEN>
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+comments:
+  enabled: true
+  repo: shinequasar/want_portfolio
+
+  issue-term: pathname
+
+collections:
+  pages:
+    output: true
+  projects:
+    output: true
+  tags:
+    output: true
+
+defaults:
+  - scope:
+      type: pages
+    values:
+      layout: default
+  - scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title
+  - scope:
+      type: projects
+    values:
+      layout: project
+      permalink: /projects/:title
+  - scope:
+      type: tags
+    values:
+      layout: tag
+      permalink: /tags/:title
