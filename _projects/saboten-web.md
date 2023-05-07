@@ -32,7 +32,7 @@ date: 2023-05-01 ~ 2023-05-02
 
 <br/>
 ## 프로젝트 깃허브주소
-- [https://github.com/TeamSantas/front-santas](https://github.com/TeamSantas/front-santas)
+- [https://github.com/shinequasar/saboten-landing.git](https://github.com/shinequasar/saboten-landing.git)
 
 <br/>
 

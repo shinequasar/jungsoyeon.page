@@ -1,17 +1,3 @@
-# [![header](https://raw.githubusercontent.com/ChemistryX/hyde/master/readme-header.png)](https://chemistryx.me)
-
-# Hyde
-
-[Jekyll](https://https://jekyllrb.com/)로 만들어진 개인 블로그 / 포트폴리오입니다.
-
-실제 데모는 [이곳](https://chemistryx.me/)에서 보실 수 있습니다.
-
-## 당부의 말씀
-
-본 웹사이트를 사용하실 때 푸터 오른쪽에 있는 `Made with Hyde`[구문](https://github.com/ChemistryX/hyde/blob/ced5a0a3653eb4e2e1bdc76f32b35da0812b792c/_includes/footer.html#L24)을 제거하거나 수정하지 말아주세요.
-
-또한 스타일시트를 발췌해서 사용하시는 경우 스타일시트 최상단부에 있는 [카피라이트 문구](https://github.com/ChemistryX/hyde/blob/ced5a0a3653eb4e2e1bdc76f32b35da0812b792c/assets/css/hyde.scss#L1)를 유지해주세요.
-
 ## 설치하기
 
 `참고` [Ruby 2.4](https://www.ruby-lang.org)이상이 설치되어 있어야 합니다.
@@ -20,6 +6,16 @@
 bundle install
 ```
 
+## 실행하기
+
+```
+- 수정사항을 입력하고 실행하면 반영됩니다.
+jekyll serve
+```
+- LF에러가 나면
+```
+git config --global core.autocrlf true
+```
 ## 설정하기
 
 **1. `_config.yml` 수정**
@@ -65,11 +61,6 @@ comments:
 
 - 그 외 내용들을 코드 내부에 주석으로 달아놓았으니 참고하시길 바랍니다.
 
-## 실행하기
-
-```
-jekyll serve
-```
 
 ## 글 작성하기
 
